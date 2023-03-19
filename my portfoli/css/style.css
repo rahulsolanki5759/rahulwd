@@ -1,0 +1,142 @@
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+body{
+    background-color: black !important;
+}
+.container
+{
+    /* height: 100vh; */
+    padding: 20px;
+    /* background-image:url(/imgis/myimg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: gray; */
+
+}
+.logo
+{
+    font-size: 30px !important;
+}
+ul li
+{
+    padding: 5px 30px;
+    list-style: none;
+
+}
+
+ul li a{
+    text-decoration: none;
+    padding-bottom: 0px !important;
+    color: #fff !important;
+}
+
+ul li:nth-child(7) {  
+    color: #ccc;
+    border-radius: 20px !important;
+    
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    .abc
+    {
+        /* margin-top: 10px; */
+    
+    }
+
+
+    .content1{
+        width: 100%;
+        height: auto;
+        /* display:  flex!important ; */
+    }
+    .plk-1 img{
+        margin-top: 10% !important;
+    }
+    
+    .submit{
+        padding: 3px 15px;
+        margin-top: 5%;
+    }
+
+    }
+    
+
+
+
+span
+{
+    color: red !important;
+}
+.int-1{
+    border-radius: 10px;
+    border: none;
+    padding: 7px 20px;
+    width: 70%;
+    /* text-align: 10px(left); */
+}
+.int-2{
+    border-radius: 10px;
+    border: none;
+    padding: 7px 20px;
+    width: 50%;
+    text-align: 10px(left);
+}
+h5
+{
+    font-weight: 900;
+}
+.submit
+{
+    border: none;
+    padding: 5px 20px;
+    margin-top: 12px !important;
+    border-radius: 10px;
+}
+.submit:hover
+{
+    background-color: blue;
+    transition: all 1s;
+}
+.m-img img{
+    height: 300px !important;
+    width: 300px;
+}
+hr{
+    background: rgb(255, 254, 254) !important;
+    padding:2px;
+}
+
+@media only screen and (max-width:520px) {
+    
+.ab-me
+{
+    margin-top: 2% !important;
+}
+}
+
+
+
+.last-ftr li
+{
+ border-radius: 390px;
+ padding: 10px 15px;
+ margin: 10px;
+}
+.menu a {
+    padding-top: 15px;
+    padding: 5px;
+    text-decoration: none;
+
+}
